@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Müller Eisen &amp; Erde GmbH – Metallbau und Gartenpflege</title>
+<meta name="description" content="Zeitlose Metallbauarbeit und Gartenpflege aus einer Hand. Müller Eisen &amp; Erde GmbH.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--iron:#25292c;--steel:#3b4145;--patina:#4d6e5b;--moss:#dfe6dd;--paper:#f1f3ef;--ink:#1d2023}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:18px/1.65 "Source Serif 4",Georgia,serif;color:var(--ink);background:var(--paper)}
+h1,h2,h3,.brand,nav a{font-family:"Barlow Condensed","Arial Narrow",sans-serif;font-weight:700;line-height:1.05;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--patina);outline-offset:3px}
+header{background:var(--iron);color:var(--paper);position:sticky;top:0;z-index:5}
+.bar{max-width:1080px;margin:auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;justify-content:space-between}
+.brand{font-size:1.5rem;text-decoration:none;letter-spacing:.01em}
+nav{display:flex;flex-wrap:wrap;gap:6px 24px}
+nav a{font-size:1.15rem;text-decoration:none;padding:4px 0;border-bottom:3px solid transparent}
+nav a[aria-current=page]{border-color:var(--patina)}
+nav a:hover{border-color:var(--moss)}
+main{max-width:1080px;margin:auto;padding:0 20px}
+.view{display:none;padding:56px 0 80px}
+.view.on{display:block}
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:420px;margin:0 -20px}
+.hero div{padding:56px 32px;display:flex;flex-direction:column;justify-content:flex-end}
+.hero .e{background:var(--iron);color:var(--paper)}
+.hero .g{background:var(--patina);color:#fff}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem)}
+.hero p{margin:14px 0 0;max-width:30ch}
+.lead{font-size:1.3rem;max-width:62ch;margin:40px 0 24px}
+h2{font-size:clamp(2rem,4.5vw,3rem);margin-bottom:20px}
+h3{font-size:1.6rem;margin-bottom:8px}
+.btn{display:inline-block;background:var(--iron);color:var(--paper);padding:12px 26px;text-decoration:none;font:700 1.15rem "Barlow Condensed",sans-serif;border:0;cursor:pointer}
+.btn:hover{background:var(--patina)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:32px}
+.col{padding:32px}
+.col.m{background:var(--iron);color:var(--paper)}
+.col.m li::marker{color:var(--moss)}
+.col.d{background:var(--moss)}
+ul{padding-left:1.1em;margin:12px 0 0}
+li{margin:6px 0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.ph{background:var(--moss);min-height:320px;display:grid;place-items:center;color:var(--steel);text-align:center;padding:20px;font-style:italic}
+form{display:grid;gap:14px;max-width:520px}
+label{display:grid;gap:4px;font-weight:600}
+input,textarea{font:inherit;padding:10px;border:2px solid var(--steel);background:#fff;border-radius:0}
+footer{background:var(--iron);color:var(--moss);padding:28px 20px;text-align:center;font-size:.95rem}
+@media(max-width:720px){.hero,.cols,.two{grid-template-columns:1fr}.hero{min-height:0}.hero div{padding:36px 20px}.two{gap:28px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="bar">
+<a class="brand" href="#home">Müller Eisen &amp; Erde GmbH</a>
+<nav aria-label="Hauptnavigation">
+<a href="#home">Home</a><a href="#dienstleistungen">Dienstleistungen</a><a href="#ueber-mich">Über Mich</a><a href="#kontakt">Kontakt</a>
+</nav></div></header>
+
+<main>
+<section id="home" class="view">
+<div class="hero">
+<div class="e"><h1>Eisen,<br>das bleibt.</h1><p>Metallbau, von Hand geplant und gefertigt.</p></div>
+<div class="g"><h1>Erde,<br>die lebt.</h1><p>Gartenpflege und Unterhalt, Jahr für Jahr.</p></div>
+</div>
+<p class="lead">Wir bauen Geländer, Tore und Möbel aus Stahl und pflegen die Gärten, in denen sie stehen. Ein Betrieb, ein Ansprechpartner, ein Ergebnis, das zusammenpasst.</p>
+<a class="btn" href="#kontakt">Offerte anfragen</a>
+</section>
+
+<section id="dienstleistungen" class="view">
+<h2>Dienstleistungen</h2>
+<p class="lead">Zwei Handwerke, die sich gut ergänzen: Was wir aus Metall bauen, steht im Garten, den wir pflegen.</p>
+<div class="cols">
+<div class="col m"><h3>Metallbau</h3>
+<ul><li>Geländer und Treppen</li><li>Tore, Zäune und Gartentüren</li><li>Pergolen und Rankgerüste</li><li>Möbel und Einzelanfertigungen</li><li>Reparaturen und Restaurierung</li></ul></div>
+<div class="col d"><h3>Gartenpflege und Unterhalt</h3>
+<ul><li>Rasen-, Hecken- und Baumschnitt</li><li>Beetpflege und Pflanzungen</li><li>Laub- und Winterdienst</li><li>Regelmässiger Unterhalt im Abo</li><li>Neugestaltung kleiner Flächen</li></ul></div>
+</div>
+</section>
+
+<section id="ueber-mich" class="view">
+<h2>Über Mich</h2>
+<div class="two">
+<div><p class="lead" style="margin-top:0">Ich bin Metallbauer und Gärtner aus Überzeugung. Beides sind Arbeiten, die Geduld verlangen und sich mit den Jahren verbessern.</p>
+<p>Ich fertige nach Mass, bespreche Lösungen vor Ort und erledige die Arbeit selbst. Meine Kundschaft schätzt, dass Eisenarbeiten und Gartenunterhalt aus einer Hand kommen.</p>
+<p><em>[Hier gehört Ihr persönlicher Text hin: Ausbildung, Erfahrung, Region.]</em></p></div>
+<div class="ph" role="img" aria-label="Platzhalter für ein Foto">Platz für ein Foto von Ihnen oder Ihrer Werkstatt</div>
+</div>
+</section>
+
+<section id="kontakt" class="view">
+<h2>Kontakt</h2>
+<div class="two">
+<div><p class="lead" style="margin-top:0">Schreiben Sie uns kurz, worum es geht. Wir melden uns mit einem Terminvorschlag für eine Besichtigung.</p>
+<p><strong>Müller Eisen &amp; Erde GmbH</strong><br>[Strasse Nr.]<br>[PLZ Ort]<br>Tel. [Telefonnummer]<br>[E-Mail]</p></div>
+<form id="f">
+<label>Name<input name="name" required autocomplete="name"></label>
+<label>E-Mail<input name="mail" type="email" required autocomplete="email"></label>
+<label>Ihr Anliegen<textarea name="msg" rows="5" required></textarea></label>
+<button class="btn" type="submit">Nachricht senden</button>
+</form>
+</div>
+</section>
+</main>
+
+<footer>© <span id="y"></span> Müller Eisen &amp; Erde GmbH · www.eisenunderde.ch</footer>
+
+<script>
+const ids=["home","dienstleistungen","ueber-mich","kontakt"];
+function route(){
+  let h=location.hash.slice(1);if(!ids.includes(h))h="home";
+  ids.forEach(i=>document.getElementById(i).classList.toggle("on",i===h));
+  document.querySelectorAll("nav a").forEach(a=>a.toggleAttribute("aria-current",a.getAttribute("href")==="#"+h)||a.removeAttribute("aria-current"));
+  document.querySelectorAll("nav a").forEach(a=>{if(a.getAttribute("href")==="#"+h)a.setAttribute("aria-current","page")});
+  window.scrollTo(0,0);
+}
+addEventListener("hashchange",route);route();
+document.getElementById("y").textContent=new Date().getFullYear();
+// E-Mail-Adresse hier eintragen:
+const MAIL="info@eisenunderde.ch";
+document.getElementById("f").addEventListener("submit",e=>{
+  e.preventDefault();const d=new FormData(e.target);
+  location.href="mailto:"+MAIL+"?subject="+encodeURIComponent("Anfrage von "+d.get("name"))+"&body="+encodeURIComponent(d.get("msg")+"\n\n"+d.get("name")+" / "+d.get("mail"));
+});
+</script>
+</body>
+</html>
