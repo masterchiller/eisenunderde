@@ -21,11 +21,12 @@ header{background:var(--iron);color:var(--paper)}
 .brand{font-size:1.5rem;letter-spacing:.01em}
 main{max-width:1080px;margin:auto;padding:0 20px}
 .hero{display:grid;grid-template-columns:1fr 1fr;min-height:420px;margin:0 -20px}
-.hero div{padding:56px 32px;display:flex;flex-direction:column;justify-content:flex-end}
+.hero div{padding:56px 32px;display:flex;flex-direction:column;justify-content:flex-start}
+.hero h1{white-space:nowrap}
 .hero .e{background:var(--iron);color:var(--paper)}
 .hero .g{background:var(--patina);color:#fff}
-.hero h1{font-size:clamp(2.6rem,7vw,5rem)}
-.hero p{margin:14px 0 0;max-width:30ch}
+.hero h1{font-size:clamp(1rem,5.2vw,3.8rem)}
+.hero p{margin:14px 0 0;white-space:nowrap;font-size:clamp(.5rem,2.1vw,1.1rem)}
 .build{padding:64px 0 24px}
 .build h2{font-size:clamp(2rem,4.5vw,3rem);margin-bottom:16px}
 .lead{font-size:1.3rem;max-width:62ch;margin:0}
@@ -38,7 +39,7 @@ form{display:grid;gap:14px;max-width:520px}
 label{display:grid;gap:4px;font-weight:600}
 input,textarea{font:inherit;padding:10px;border:2px solid var(--steel);background:#fff;border-radius:0}
 footer{background:var(--iron);color:var(--moss);padding:28px 20px;text-align:center;font-size:.95rem}
-@media(max-width:720px){.two{grid-template-columns:1fr;gap:28px}.hero{min-height:300px}.hero div{padding:28px 14px}.hero h1{font-size:clamp(1.6rem,8vw,2.4rem);overflow-wrap:break-word}.hero p{font-size:.95rem;margin-top:10px}}
+@media(max-width:720px){.two{grid-template-columns:1fr;gap:28px}.hero{min-height:0}.hero div{padding:32px 12px}.hero h1{font-size:5.2vw}.hero p{font-size:2.2vw;margin-top:8px}}
 </style>
 </head>
 <body>
@@ -46,8 +47,8 @@ footer{background:var(--iron);color:var(--moss);padding:28px 20px;text-align:cen
 
 <main>
 <section class="hero" aria-label="Willkommen">
-<div class="e"><h1>Eisen,<br>das bleibt.</h1><p>Metallbau, von Hand geplant und gefertigt.</p></div>
-<div class="g"><h1>Erde,<br>die lebt.</h1><p>Gartenpflege und Unterhalt, Jahr für Jahr.</p></div>
+<div class="e"><h1>Eisen, das bleibt.</h1><p>Metallbau, von Hand geplant und gefertigt.</p></div>
+<div class="g"><h1>Erde, die lebt.</h1><p>Gartenpflege und Unterhalt, Jahr für Jahr.</p></div>
 </section>
 
 <section class="build">
